@@ -31,3 +31,10 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Własne
+main
+verbs
+verbs_count
+*.swp
+*.cbp
