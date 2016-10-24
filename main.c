@@ -24,7 +24,7 @@ void wczytaj(int ile) {
     /* Wczytywanie ile-u słów do tablicy. */
     for(i=0; i<ile ; ++i){
             printf("%d: ", i+1);  /* Które z kolei słowo wczytujesz. */
-            scanf("%s %s %s %s",
+            scanf("%15s %15s %15s %15s",
                   tab[i].slowo,
                   tab[i].verb,
                   tab[i].past_simple,
@@ -277,6 +277,7 @@ void menu() {
             printf("Ile słów chcesz wczytać? ");
             scanf("%d", &ile_slow);
             wczytaj(ile_slow);
+            printf("\n");
             break;
 
         /* Wyświetlanie słów */
@@ -305,6 +306,7 @@ void menu() {
             scanf("%d", &forma);
             if(forma > 0 && forma <= 4)
                 edycja(ktore-1, forma);
+            printf("\n");
             break;
         }
 
