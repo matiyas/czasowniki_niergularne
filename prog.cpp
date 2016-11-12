@@ -1,3 +1,4 @@
+// LOL
 // Komentarz
 #include <iostream>
 
