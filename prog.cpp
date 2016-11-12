@@ -1,3 +1,4 @@
+// Komentarz
 #include <iostream>
 
 using namespace std;
