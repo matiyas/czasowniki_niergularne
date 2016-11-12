@@ -7,11 +7,16 @@ void drukuj(int x) {
     cout << endl;
 }
 
+int minus(int a, int b) {
+    return a-b;
+}
+
 int main() {
     for(int i=0; i<10; ++i) cout << i << " ";
     cout << endl;
 
     drukuj(15);
-    
+    cout << "minus(93,21) = " << minus(93,21) << endl;
+       
     return 0;
 }
