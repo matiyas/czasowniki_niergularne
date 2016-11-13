@@ -4,6 +4,10 @@
 
 using namespace std;
 
+int log_and(int a, int b) {
+    return a&b;
+}
+
 int bit_p(int a, int b) {
     return a>>b;
 }
