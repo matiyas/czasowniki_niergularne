@@ -5,7 +5,9 @@
 
 using namespace std;
 
-int pierwiastek(int a, int
+int pierwiastek(int a, int b) {
+    return sqrt(a,b);
+}
 
 int potega(int a, int b) {
     return pow(a, b);
@@ -59,6 +61,7 @@ int main() {
     drukuj(15);
     cout << "dodaj(32,12) = " << dodaj(32,12) << endl;
     cout << "minus(93,21) = " << minus(93,21) << endl;
+    cout << "potega(93,21) = " << potega(93,21) << endl;
        
     return 0;
 }
