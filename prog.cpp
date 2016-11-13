@@ -5,6 +5,8 @@
 
 using namespace std;
 
+int pierwiastek(int a, int
+
 int potega(int a, int b) {
     return pow(a, b);
 }
