@@ -4,6 +4,10 @@
 
 using namespace std;
 
+int bit_p(int a, int b) {
+    return a>>b;
+}
+
 int bit_l(int a, int b) {
     return a<<b;
 }
