@@ -1,8 +1,17 @@
 // LOL
 // Komentarz
 #include <iostream>
+#include <cmath>
 
 using namespace std;
+
+int potega(int a, int b) {
+    return pow(a, b);
+}
+
+int log_or(int a, int b) {
+    return a|b;
+}
 
 int log_and(int a, int b) {
     return a&b;
