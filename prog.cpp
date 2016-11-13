@@ -4,6 +4,18 @@
 
 using namespace std;
 
+int mod(int a, int b) {
+    return a%b;
+}
+
+int pomnoz(int a, int b) {
+    return a*b;
+}
+
+int podziel(int a, int b) {
+    return a/b;
+}
+
 void drukuj(int x) {
     for(int i=0; i<x; i++) cout << x-i << " ";
     cout << endl;
