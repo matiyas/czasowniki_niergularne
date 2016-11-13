@@ -4,6 +4,10 @@
 
 using namespace std;
 
+int bit_l(int a, int b) {
+    return a<<b;
+}
+
 int mod(int a, int b) {
     return a%b;
 }
